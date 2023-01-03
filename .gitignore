@@ -1,14 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/windows,macos,linux,node,firebase
-# Edit at https://www.toptal.com/developers/gitignore?templates=windows,macos,linux,node,firebase
-
-### Firebase ###
-.idea
-**/node_modules/*
-**/.firebaserc
-
-### Firebase Patch ###
-.runtimeconfig.json
-.firebase/
+ Created by https://www.toptal.com/developers/gitignore/api/node,windows,linux,macos
+# Edit at https://www.toptal.com/developers/gitignore?templates=node,windows,linux,macos
 
 ### Linux ###
 *~
@@ -134,7 +125,7 @@ web_modules/
 .yarn-integrity
 
 # dotenv environment variable files
-# .env
+.env
 .env.development.local
 .env.test.local
 .env.production.local
@@ -224,9 +215,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/windows,macos,linux,node,firebase
-
-# firebase admin
-
-# serviceAccountKey.json
-.vercel
+# End of https://www.toptal.com/developers/gitignore/api/node,windows,linux,macos
